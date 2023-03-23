@@ -1,0 +1,173 @@
+body{
+  background-color: black;
+}
+.header-img{
+  height: 80px;
+  position: absolute;
+right: 20px;
+  top:15px;
+  transition-duration: 0.6s;
+}
+
+.header-img-scroll{
+  top: 10px;
+  transition-duration: 0.6s;
+}
+.navbar {
+	background: #493102;
+	border-bottom: none;
+	padding: 30px 0;
+	transition-duration: 0.6s;
+}
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+	background: #ffffff;
+	padding: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
+.nav-dropdown-scroll {
+	background: #e7eaea;
+	box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}
+.menu-home{
+  background-color: orange !important;
+}
+.menu-home:hover{
+ background-color: darkorange !important;
+}
+.menu:hover{
+  background-color: #cecece !important;
+}
+.navbar-brand{
+  background-color: black !important;
+  color: white !important;
+}
+
+.page-content{
+  background-color: whitesmoke;
+  min-height: 600px;
+}
+.page-title{
+    display: inline-block;
+    border: 1px solid;
+    padding: 8px;
+}
+.page-content > div:nth-child(2) {
+  margin-top: 100px;
+}
+.home {
+margin-top 100px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image: url("https://theultralinx.com/.image/t_share/MTI5MDI0NDA1NzQ4NTkxMjM1/whyte-gif-8.gif");
+}
+
+.home-text{
+  margin-top: 200px;
+}
+#homeTop{
+  height: 111px;
+}
+.home-exp-title{
+  padding: 15px;
+  background-color: #020202;
+  color: #cacaca;
+  border: 1px solid #ffffff;
+}
+
+.home-content{
+  
+}
+
+.home-content div{
+    padding: 15px;
+    background: #c5d8da;
+    color: #ffffff;
+}
+
+.home-content div div span{
+    padding: 11px;
+    background: #b14444;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+    margin: 10px;
+    display: block;
+    width: fit-content;
+}
+
+.home-content div div span:hover{
+    background: white;
+    padding: 11px;
+    color: black;
+    width: initial;
+}
+.about{
+    background: #1c1420;
+    color: floralwhite;
+    padding: 20px;
+}
+.about>div{
+    margin: 50px 0px 0px 0px;
+}
+.portfolio img{
+    border: 1px solid;
+}
+.portfolio{
+    background: #e2e2e2;
+}
+.portfolio h5{
+    background: chocolate;
+    color: #f7f7f7;
+    padding: 8px;
+    border: 1px solid black;
+}
+.contact > div{
+  margin-top: 20px
+}
+
+.social-media{
+    background: #e2e2e2;
+    margin: 20px;
+}
+.social-media a{
+    color: crimson;
+    display: inline-block;
+    margin:10px;
+}
+.social-media a:hover{
+    color: #9e152f;
+}
+.contact form{
+    margin: auto auto;
+    text-align:right;
+  float: inherit;
+}
+
+.contact form input,textarea{
+    width: 100%;
+    margin:2px;
+    padding:10px;
+    background-color: #b14444;
+    border: 1px solid black;
+    color: whitesmoke;
+}
+.contact form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c5c5c5;
+    opacity: 1; /* Firefox */
+}
+.contact form textarea{
+    height: 150px;
+}
+.contact form button{
+    margin: 10px 0px;
+    padding: 10px 30px;
+    color: #494242;
+    border: 1px solid #b14444;
+}
+.contact form button:hover{
+    background: #34106bfa;
+    color: whitesmoke;
+    border-color: transparent;
+}
